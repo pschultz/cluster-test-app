@@ -1,4 +1,4 @@
-6 MB Docker Image containing an HTTP Server that echoes the request header and
+8 MB Docker Image containing an HTTP Server that echoes the request header and
 prints the hostname and port it is running on.
 
 Useful as a "sample app" when testing orchestration / clustering software for
