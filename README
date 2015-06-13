@@ -1,0 +1,8 @@
+6 MB Docker Image containing an HTTP Server that echoes the request header and
+prints the hostname and port it is running on.
+
+Useful as a "sample app" when testing orchestration / clustering software for
+Docker, e.g. to convince yourself that the load balancer is doing what it's
+supposed to do, or the rolling release process works as intended.
+
+    docker run pschultz/cluster-test-app /server 8080
